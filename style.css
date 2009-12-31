@@ -34,6 +34,11 @@ div.dokuwiki ul.menu li a:hover, div.dokuwiki ul.menu li:hover a, div.dokuwiki u
 	color:#FFFFFF;
 }
 
+div#adsense {
+	margin-top:20px;
+	text-align:center;
+}
+
 div#bar__top {
 	background:#144A6E url(images/preface-wrapper-bg.png) repeat-x;
 	border:0;
