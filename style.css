@@ -1,0 +1,46 @@
+div.dokuwiki ul.menu {
+	float:right;
+	font-family:Myriad Pro,Myriad Web Pro Regular,Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	list-style:none;
+	margin:25px 120px 0;
+	text-transform:uppercase;
+}
+
+div.dokuwiki ul.menu li {
+	background:url(images/tab-left.png) no-repeat left 0;
+	display:block;
+	float:left;
+	margin:0 4px 0 0;
+	padding:0 0 0 10px;
+}
+
+div.dokuwiki ul.menu li a {
+	background:transparent url(images/tab-right.png) no-repeat scroll right 0;
+	color:#154B70;
+	display:block;
+	line-height:25px;
+	padding:0 10px 0 0;
+	text-decoration:none;
+}
+
+div.dokuwiki ul.menu li:hover, div.dokuwiki ul.menu li.active {
+	background-position:left -29px;
+}
+
+div.dokuwiki ul.menu li a:hover, div.dokuwiki ul.menu li:hover a, div.dokuwiki ul.menu li.active a {
+	background-position:right -29px;
+	color:#FFFFFF;
+}
+
+div#bar__top {
+	background:#144A6E url(images/preface-wrapper-bg.png) repeat-x;
+	border:0;
+	padding:5px 0 3px 2px;
+}
+
+div.dokuwiki div.breadcrumbs {
+	background:#F4F7E7 url(images/content-gradient.png) repeat-x scroll 0 1px;
+	padding:4px 4px 3px 4px;
+}
